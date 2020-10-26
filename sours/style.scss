@@ -415,9 +415,12 @@ display: none;
     transition: 0.6s;
     &:hover {
       color: $colot_text_hov;
-      transform: scale(1.02);
+      transform: scale(1.05);
     }
   }
+}
+.navigation_icons a i.dark:hover{
+  color: $colot_text_hov;
 }
 //start my works
 .my-works {

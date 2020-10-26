@@ -429,7 +429,11 @@ main {
 }
 .navigation_icons a i:hover {
   color: #b39d45;
-  transform: scale(1.02);
+  transform: scale(1.05);
+}
+
+.navigation_icons a i.dark:hover {
+  color: #b39d45;
 }
 
 .my-works {
