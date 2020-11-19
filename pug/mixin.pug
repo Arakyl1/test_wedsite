@@ -1,0 +1,30 @@
+mixin work(title, number, img, dataAos, href)
+    .my-works-post(class!=attributes.class data-aos-duration="1000" data-aos=dataAos)
+        a(href=href)
+            img(src=img alt='#')
+            .shadow-one
+            .image-shadov
+            .post-text
+                h4= title
+                buttom.arrow-right-link.work-button
+                    p See More
+                    i(class="fa fa-long-arrow-right arrow-two-left" aria-hidden="true")
+            h5.postNam= number
+mixin carts(number, title, text)
+    .carts(class!=attributes.class)
+        .carts-conte
+            span.carts-nan= number
+            h4= title
+            .carts-img
+            p.carts-text= text
+mixin transfrom(titleForm)
+    div(class!=attributes.class)
+        .one(class=titleForm)
+        .two(class=titleForm)
+        .three(class=titleForm)
+        .four(class=titleForm)
+mixin twoExperimentsContent(number, title, text)
+    .left-cont-cart(class!=attributes.class)
+        span.nan-cart= number
+        h4.title-carts= title
+        p.text-cart= text
